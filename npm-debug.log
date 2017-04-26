@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Fer/Desktop/Practicas_DSI/Modulos/ull-shape',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Fer/.npm correctMkdir not in flight; initializing
+10 info lifecycle @ull0100897975/ull-shape-fernando-jimmy@1.0.0~prepublish: @ull0100897975/ull-shape-fernando-jimmy@1.0.0
+11 silly lifecycle @ull0100897975/ull-shape-fernando-jimmy@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/Fer/Desktop/Practicas_DSI/Modulos/ull-shape' ]
+13 verbose tarball /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package.tgz
+14 verbose folder /Users/Fer/Desktop/Practicas_DSI/Modulos/ull-shape
+15 verbose addLocalTarball adding from inside cache /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package.tgz
+16 verbose correctMkdir /Users/Fer/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd @ull0100897975/ull-shape-fernando-jimmy@1.0.0
+18 verbose afterAdd /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/Fer/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package/package.json written
+21 silly publish { name: '@ull0100897975/ull-shape-fernando-jimmy',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'Shape module',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy.git' },
+21 silly publish   author: { name: 'Fernando Nantes y Alex Jimmy Montaño' },
+21 silly publish   license: 'ISC',
+21 silly publish   bin: { 'team-area': './bin/area.js' },
+21 silly publish   bugs: { url: 'https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy/issues' },
+21 silly publish   homepage: 'https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy#readme',
+21 silly publish   readme: '# Módulo Shape\n\nEste repositorio contiene los elementos necesarios del módulo Shape\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'a2df721daca6a9355d3441060fcb8943b93db771',
+21 silly publish   _id: '@ull0100897975/ull-shape-fernando-jimmy@1.0.0',
+21 silly publish   _shasum: 'e58872903af5da551e95771518cb539a2460b1e0',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @ull0100897975/ull-shape-fernando-jimmy
+24 silly mapToRegistry scope (from package name) @ull0100897975
+25 verbose mapToRegistry no registry URL found in name for scope @ull0100897975
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@ull0100897975/ull-shape-fernando-jimmy',
+28 silly mapToRegistry   scope: '@ull0100897975',
+28 silly mapToRegistry   escapedName: '@ull0100897975%2full-shape-fernando-jimmy',
+28 silly mapToRegistry   name: '@ull0100897975/ull-shape-fernando-jimmy',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@ull0100897975%2full-shape-fernando-jimmy
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading /Users/Fer/.npm/@ull0100897975/ull-shape-fernando-jimmy/1.0.0/package.tgz
+32 verbose request uri https://registry.npmjs.org/@ull0100897975%2full-shape-fernando-jimmy
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 15:20:48
+35 verbose request using bearer token for auth
+36 verbose request id 7467d3ca60aafbda
+37 http request PUT https://registry.npmjs.org/@ull0100897975%2full-shape-fernando-jimmy
+38 http 404 https://registry.npmjs.org/@ull0100897975%2full-shape-fernando-jimmy
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '27',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Wed, 26 Apr 2017 14:20:49 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-mad9433-MAD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1493216448.304825,VS0,VE1341' }
+40 verbose request invalidating /Users/Fer/.npm/registry.npmjs.org/_40ull0100897975_252full-shape-fernando-jimmy on PUT
+41 error publish Failed PUT 404
+42 verbose stack Error: Scope not found : @ull0100897975/ull-shape-fernando-jimmy
+42 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+42 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+42 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+43 verbose statusCode 404
+44 verbose pkgid @ull0100897975/ull-shape-fernando-jimmy
+45 verbose cwd /Users/Fer/Desktop/Practicas_DSI/Modulos/ull-shape
+46 error Darwin 16.5.0
+47 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--access=public"
+48 error node v6.9.5
+49 error npm  v3.10.10
+50 error code E404
+51 error 404 Scope not found : @ull0100897975/ull-shape-fernando-jimmy
+52 error 404
+53 error 404 '@ull0100897975/ull-shape-fernando-jimmy' is not in the npm registry.
+54 error 404 You should bug the author to publish it (or use the name yourself!)
+55 error 404 Note that you can also install from a
+56 error 404 tarball, folder, http url, or git url.
+57 verbose exit [ 1, true ]
