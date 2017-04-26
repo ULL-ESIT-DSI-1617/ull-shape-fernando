@@ -1,0 +1,22 @@
+{
+  "name": "@ull0100897975/ull-shape-fernando-jimmy",
+  "version": "1.0.0",
+  "description": "Shape module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy.git"
+  },
+  "author": "Fernando Nantes y Alex Jimmy Montaño",
+  "license": "ISC",
+  "bin": {
+    "team-area": "./bin/area.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-fernando-jimmy#readme"
+}
